@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.AssemblyInfo.cs
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.exe
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.deps.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.runtimeconfig.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.runtimeconfig.dev.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ref\ClassUseageBasic.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\bin\Debug\net5.0\ClassUseageBasic.pdb
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ref\ClassUseageBasic.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.pdb
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\ClassUseageBasic\obj\Debug\net5.0\ClassUseageBasic.genruntimeconfig.cache

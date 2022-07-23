@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.exe
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.deps.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.runtimeconfig.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.runtimeconfig.dev.json
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\ref\FirstProject.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\bin\Debug\net5.0\FirstProject.pdb
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.AssemblyInfo.cs
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\ref\FirstProject.dll
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.pdb
+C:\Users\User\Desktop\fds\UnityEngineBasic_Sat\Csharp\FirstProject\CsharpBasic\obj\Debug\net5.0\FirstProject.genruntimeconfig.cache
