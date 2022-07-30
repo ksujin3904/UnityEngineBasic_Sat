@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\fds\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\Variables.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\Variables.csproj",
       "projectName": "Variables",
-      "projectPath": "C:\\Users\\User\\Desktop\\fds\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\Variables.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\Variables.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\fds\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Variables\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

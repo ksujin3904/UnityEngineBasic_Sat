@@ -30,7 +30,12 @@
       "ProjectGuid": "3abad710-fd25-4d96-8c27-7c94db4811be",
       "DisplayName": "ClassUseageBasic",
       "ColorIndex": 4
+    },
+    "11a83cb9-37bc-4c74-8fe4-8329172bf005": {
+      "ProjectGuid": "11a83cb9-37bc-4c74-8fe4-8329172bf005",
+      "DisplayName": "Array",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
