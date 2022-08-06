@@ -35,7 +35,37 @@
       "ProjectGuid": "11a83cb9-37bc-4c74-8fe4-8329172bf005",
       "DisplayName": "Array",
       "ColorIndex": 5
+    },
+    "0cf46329-dfe8-45ca-8d85-04e343ae153c": {
+      "ProjectGuid": "0cf46329-dfe8-45ca-8d85-04e343ae153c",
+      "DisplayName": "Statement_SwitchCase",
+      "ColorIndex": 6
+    },
+    "508399f7-469c-4c29-bfad-aab9c8dc3b13": {
+      "ProjectGuid": "508399f7-469c-4c29-bfad-aab9c8dc3b13",
+      "DisplayName": "Array2Dimension",
+      "ColorIndex": 7
+    },
+    "7c3dbeb5-9fa4-457d-86a0-4c99ef2a0fdb": {
+      "ProjectGuid": "7c3dbeb5-9fa4-457d-86a0-4c99ef2a0fdb",
+      "DisplayName": "Operators",
+      "ColorIndex": 8
+    },
+    "370b54ef-5e11-4789-bb5d-c3c34b4966fe": {
+      "ProjectGuid": "370b54ef-5e11-4789-bb5d-c3c34b4966fe",
+      "DisplayName": "Structure",
+      "ColorIndex": 9
+    },
+    "349de2f8-c483-4a04-8390-409f85c538d2": {
+      "ProjectGuid": "349de2f8-c483-4a04-8390-409f85c538d2",
+      "DisplayName": "Example02_HorseRacing",
+      "ColorIndex": 10
+    },
+    "eebca97b-8afa-4b07-806d-a961c8f4d2e2": {
+      "ProjectGuid": "eebca97b-8afa-4b07-806d-a961c8f4d2e2",
+      "DisplayName": "ClassInheritanceAndPolymorphism",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 12
 }

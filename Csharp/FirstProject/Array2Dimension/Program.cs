@@ -14,9 +14,6 @@ namespace Array2Dimension
             { 0, 1, 1, 0, 0 }
         };
 
-        
-
-
         static void Main(string[] args)
         {
             Player player = new Player(3, 0, map);

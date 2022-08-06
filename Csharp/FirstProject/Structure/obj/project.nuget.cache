@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wTNqtYxSn2MQu3MZwqLxqyChee5kZnGxcBKQsIvrrc00MktrB3RT8nmIWi0AwZ9G6dqWuym5O+Uq6VcPEmD+lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat\\Csharp\\FirstProject\\Structure\\Structure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
