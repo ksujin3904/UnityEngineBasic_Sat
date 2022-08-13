@@ -24,7 +24,7 @@ namespace ClassInheritanceAndPolymorphism
             // Player test = new Warrior(); => 공간성
             // Player는 부모 클래스 타입, Warrior는 자식 클래스 타입
             // warrior를 Players 참조에 등록
-            // 즉, 자식객체를 부모타입으로 참조할 수 있다.
+            // ** 즉, 자식객체를 부모타입으로 참조할 수 있다. **
             players[0] = warrior;
             players[1] = wizard;
             players[2] = knight;

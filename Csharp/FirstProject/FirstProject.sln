@@ -28,11 +28,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statement_Loops", "Statemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statement_SwitchCase", "Statement_SwitchCase\Statement_SwitchCase.csproj", "{0CF46329-DFE8-45CA-8D85-04E343AE153C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{370B54EF-5E11-4789-BB5D-C3C34B4966FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Structure.csproj", "{370B54EF-5E11-4789-BB5D-C3C34B4966FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example02_HorseRacing", "HorseRacing\Example02_HorseRacing.csproj", "{349DE2F8-C483-4A04-8390-409F85C538D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example02_HorseRacing", "HorseRacing\Example02_HorseRacing.csproj", "{349DE2F8-C483-4A04-8390-409F85C538D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInheritanceAndPolymorphism", "ClassPolymorphism\ClassInheritanceAndPolymorphism.csproj", "{EEBCA97B-8AFA-4B07-806D-A961C8F4D2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassInheritanceAndPolymorphism", "ClassPolymorphism\ClassInheritanceAndPolymorphism.csproj", "{EEBCA97B-8AFA-4B07-806D-A961C8F4D2E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{34FAC431-AD50-4B96-BC96-F8AFD6177146}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example03_DynamicArray", "Example03_DynamicArray\Example03_DynamicArray.csproj", "{9D1DBA98-B7D1-4B49-82B3-2C96C1B1BA09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example04_MyLinkedList", "Example04_MyLinkedList\Example04_MyLinkedList.csproj", "{46D38E86-941C-43C2-B2BA-2CC0B2809171}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example05_MyHashtable", "Example05_MyHashtable\Example05_MyHashtable.csproj", "{426E6B44-43D7-4B42-83B4-1C1D23AE290D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example06_RollADice", "Example06_DiceGame\Example06_RollADice.csproj", "{4049DA60-88AE-4554-B4AC-10FB6F828B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +102,26 @@ Global
 		{EEBCA97B-8AFA-4B07-806D-A961C8F4D2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEBCA97B-8AFA-4B07-806D-A961C8F4D2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEBCA97B-8AFA-4B07-806D-A961C8F4D2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FAC431-AD50-4B96-BC96-F8AFD6177146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FAC431-AD50-4B96-BC96-F8AFD6177146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FAC431-AD50-4B96-BC96-F8AFD6177146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FAC431-AD50-4B96-BC96-F8AFD6177146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1DBA98-B7D1-4B49-82B3-2C96C1B1BA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1DBA98-B7D1-4B49-82B3-2C96C1B1BA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1DBA98-B7D1-4B49-82B3-2C96C1B1BA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1DBA98-B7D1-4B49-82B3-2C96C1B1BA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D38E86-941C-43C2-B2BA-2CC0B2809171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D38E86-941C-43C2-B2BA-2CC0B2809171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D38E86-941C-43C2-B2BA-2CC0B2809171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D38E86-941C-43C2-B2BA-2CC0B2809171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426E6B44-43D7-4B42-83B4-1C1D23AE290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426E6B44-43D7-4B42-83B4-1C1D23AE290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426E6B44-43D7-4B42-83B4-1C1D23AE290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426E6B44-43D7-4B42-83B4-1C1D23AE290D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4049DA60-88AE-4554-B4AC-10FB6F828B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4049DA60-88AE-4554-B4AC-10FB6F828B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4049DA60-88AE-4554-B4AC-10FB6F828B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4049DA60-88AE-4554-B4AC-10FB6F828B48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

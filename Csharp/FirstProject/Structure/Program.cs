@@ -62,7 +62,7 @@ namespace Structure // 구조체
             player.stats = new Stats(999, 999, 999, 999);
         }
 
-        public static void PrintCombatScore(PlayerStruct player) // 구조체로 만든 함수, player 값을 복사
+        public static void PrintCombatScore(PlayerStruct player) // 구조체로 만든 함수, player 값을 복사; 값을 복사했기 때문에 바뀐 값 적용 X
         {
             Console.WriteLine(player.stats.GetCombatScore());
             player.stats = new Stats(999, 999, 999, 999);

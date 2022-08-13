@@ -44,7 +44,7 @@ namespace Example02_HorseRacing
                     for (int i = 0;i < horses.Length; i++)
                     {
                     if (horses[i].enabled)
-                        {
+                    {
                         // 난수 생성
                         random = new Random();
                         int tmpMoveDistance = random.Next(minSpped, maxSpped + 1);
@@ -60,7 +60,7 @@ namespace Example02_HorseRacing
                             Console.WriteLine($"{grade} 등으로 도착");
                         }
                         Console.WriteLine();
-                        }
+                    }
                     else
                     {
                         Console.WriteLine($"{horses[i].name}는 도착");

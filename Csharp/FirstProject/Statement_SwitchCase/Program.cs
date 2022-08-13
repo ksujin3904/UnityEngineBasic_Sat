@@ -12,7 +12,7 @@ public enum State // 캐릭터의 상태 표현, 자동으로 0,1,2,3,4가 되�
     Die     // ... 00000110
 }
 
-//[Flags]
+//[Flags: 최대 32개]
 public enum StateFlags
 {
     Idle = 0 << 0,   // ... 00000000
