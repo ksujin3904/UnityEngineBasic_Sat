@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayButton : MonoBehaviour
 {
-     public void Onclick()
+    public void OnClick()
     {
-        if (SongSelector.Instance.LoadSelectedSongData())
+        if (SongSelector.Instance.TryLoadSelectedSongData())
         {
             SceneMover.MoveTo("Play");
         }

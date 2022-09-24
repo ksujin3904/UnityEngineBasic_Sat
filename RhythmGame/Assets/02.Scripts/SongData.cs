@@ -4,10 +4,10 @@ using UnityEngine;
 
 /// <summary>
 /// 노래 데이터
-/// 노래 이름, 난이도, 노트 목록 정보
+/// 노래 이름, 난이도, 노트 목록 정보 
 /// </summary>
 [System.Serializable]
-public class SongData //Mono ~ 필요없어서 삭제
+public class SongData
 {
     public string Name;
     public int Level;

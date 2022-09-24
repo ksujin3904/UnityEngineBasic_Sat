@@ -8,40 +8,54 @@ public enum HitType
     Miss,
     Good,
     Great,
-    Cool    
+    Cool
 }
+
 public class Note : MonoBehaviour
 {
-    public KeyCode key;
+    public KeyCode Key;
 
     public void Hit(HitType hitType)
     {
+
         switch (hitType)
         {
             case HitType.Bad:
+                ScoringText.Instance.Score += Constants.SCORE_BAD;
+                GameStatus.CurrentCombo = 0; // ÄÞº¸°¡ ²÷±è
                 break;
             case HitType.Miss:
+                ScoringText.Instance.Score += Constants.SCORE_MISS;
+                GameStatus.CurrentCombo = 0; // ÄÞº¸°¡ ²÷±è
                 break;
             case HitType.Good:
+                ScoringText.Instance.Score += Constants.SCORE_GOOD;
+                GameStatus.CurrentCombo++;
                 break;
             case HitType.Great:
+                ScoringText.Instance.Score += Constants.SCORE_GREAT;
+                GameStatus.CurrentCombo++;
                 break;
             case HitType.Cool:
+                ScoringText.Instance.Score += Constants.SCORE_COOL;
+                GameStatus.CurrentCombo++;
                 break;
             default:
                 break;
         }
+        PopUpTextManager.Instance.PopUp(hitType);
+
     }
 
+    
 
     private void FixedUpdate()
     {
         Move();
     }
 
-    // À§Ä¡¸¦ ½Ç½Ã°£ º¯°æ
     private void Move()
     {
-        transform.Translate(Vector2.down * Time.fixedDeltaTime);
+        transform.Translate(Vector2.down * NoteManager.NoteSpeedScale * Time.fixedDeltaTime);
     }
 }

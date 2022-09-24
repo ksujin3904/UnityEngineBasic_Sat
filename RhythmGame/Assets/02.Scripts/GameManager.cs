@@ -22,10 +22,9 @@ public class GameManager : MonoBehaviour
             State = GameStates.StartPlay;
     }
 
+
     private void Awake()
     {
-        // if (Instance != null)
-        //     Destroy(Instance.gameObject);
         Instance = this;
     }
 
@@ -36,11 +35,19 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        // state: 유한상태머신
         switch (State)
         {
             case GameStates.Idle:
                 break;
             case GameStates.StartPlay:
+                {
+                    if (NoteManager.Instance.IsReady)
+                    {
+                        NoteManager.Instance.StartSpawn();
+                        State++;
+                    }
+                }
                 break;
             case GameStates.WaitForGameFinished:
                 break;

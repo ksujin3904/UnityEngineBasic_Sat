@@ -2,30 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
-
+/// <summary>
+/// 노래 선택자
+/// </summary>
 public class SongSelector : MonoBehaviour
 {
     public static SongSelector Instance;
     public string SelectedSongName;
     public VideoClip Clip;
     public SongData Data;
-    public void Selcet(string songName)
+
+    public bool IsDataLoaded => Data != null;
+    public void Select(string songName)
     {
         SelectedSongName = songName;
     }
-
-    public bool LoadSelectedSongData()
+    /// <summary>
+    /// Json 노래 데이터와 비디오 클립을 로드
+    /// </summary>
+    public bool TryLoadSelectedSongData()
     {
         bool isLoaded = false;
-        if (string.IsNullOrEmpty(SelectedSongName)) // 로드에 실패할 경우
+        
+        // 선택된 노래가 있는지
+        if (string.IsNullOrEmpty(SelectedSongName)) // 값이 없거나(null),  공백("") 이거나
             return false;
-
-        // 예외발생 처리구문
+        // 노래 데이터 & 비디오클립 로드 시 예외 잡기 시도
         try
         {
             Clip = Resources.Load<VideoClip>($"VideoClips/{SelectedSongName}");
             TextAsset dataText = Resources.Load<TextAsset>($"SongData/{SelectedSongName}");
-            // Json 파일을 SongData로
             Data = JsonUtility.FromJson<SongData>(dataText.ToString());
             isLoaded = true;
         }
