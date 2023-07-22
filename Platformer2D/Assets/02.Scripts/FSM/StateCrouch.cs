@@ -19,12 +19,17 @@ public class StateCrouch : State
         {
             case IState<StateType>.Step.None:
                 {
+                    // ladder에서 사용된 설정값이므로 모든 상태에 추가할 필요 있음
+                    movement.isMovable = true;
+                    movement.isDirectionChangeable= true;
+                    rigidbody.bodyType = RigidbodyType2D.Dynamic;
+                    animator.speed= 1.0f;
+                    animator.Play("CrouchStart");
                     currentStep++;
                 }
                 break;
             case IState<StateType>.Step.Start:
                 {
-                    animator.Play("CrouchStart");
                     currentStep++;
                 }
                 break;

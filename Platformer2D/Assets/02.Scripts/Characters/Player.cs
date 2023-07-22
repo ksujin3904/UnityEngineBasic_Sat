@@ -29,7 +29,10 @@ public class Player : Character
         // crouch 액션에 대해서 버튼을 눌렸을 때 상태 정의
         crouchAction.performed += ctx => stateMachine.ChangeState(StateType.Crouch);
         // crouch 액션에 대해서 버튼을 뗏을 때 상태 정의
-        crouchAction.canceled += ctx => stateMachine.ChangeState(StateType.StandUp); 
+        crouchAction.canceled += ctx => stateMachine.ChangeState(StateType.StandUp);
+
+        InputAction upArrowAction = _input.currentActionMap.FindAction("UpArrow");
+        upArrowAction.performed += ctx => stateMachine.ChangeState(StateType.LadderUp);
     }
 
     private void Start()
@@ -43,6 +46,7 @@ public class Player : Character
             { StateType.Land, new StateLand(stateMachine) },
             { StateType.Crouch, new StateCrouch(stateMachine) },
             { StateType.StandUp, new StateStandUp(stateMachine) },
+            { StateType.LadderUp, new StateLadderUp(stateMachine) },
         });
     }
 }

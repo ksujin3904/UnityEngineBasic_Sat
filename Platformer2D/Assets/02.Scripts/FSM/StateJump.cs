@@ -24,14 +24,19 @@ public class StateJump : State
         {
             case IState<StateType>.Step.None:
                 {
+                    movement.isMovable = true;
+                    movement.isDirectionChangeable = true;
+                    rigidbody.bodyType = RigidbodyType2D.Dynamic;
+                    animator.speed = 1.0f;
+                    // rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0.0f); // 점프 결과 초기화
+                    rigidbody.AddForce(Vector2.up * character.jumpForce, ForceMode2D.Impulse);
+                    // force: 질량의 영향을 받음 / impulse: 질량의 영향을 받지 않음
+                    animator.Play("Jump");
                     currentStep++;
                 }
                 break;
             case IState<StateType>.Step.Start:
                 {
-                    rigidbody.AddForce(Vector2.up * character.jumpForce, ForceMode2D.Impulse);
-                    // force: 질량의 영향을 받음 / impulse: 질량의 영향을 받지 않음
-                    animator.Play("Jump");
                     currentStep++;
                 }
                 break;
